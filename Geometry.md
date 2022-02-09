@@ -1,1 +1,1 @@
-#### Diagonal of a Square = a*√(2)
+#### 1. Diagonal of a Square = a*√(2)
