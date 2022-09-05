@@ -13,4 +13,4 @@
 
 ## Straight Line :
       1. slope of a line = (x1-x2)/(y1-y2) 
-      2. Distance betwn two pints = sqrt( (x1-x2)^2 + (y1-y2)^2 )
+      2. Distance betwn two points = sqrt( (x1-x2)^2 + (y1-y2)^2 )
