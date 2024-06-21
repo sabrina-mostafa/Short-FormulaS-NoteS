@@ -43,7 +43,7 @@ int main ()
         if(Start>End) swap(Start, End) ;
 
         Start-- ;
-        sum = (End*(End+1)/2) - (Start*(Start+1)/2) ;
+        sum = (End*(End+1)/2) - (Start*(Start+1)/2) ;  // { SumRange(1, End) - Sumrange(1 ,Start-1) }
 
         cout<<"\nThe summation of the range("<<++Start<<", "<<End<<") is : " << sum ;
 
