@@ -7,6 +7,8 @@
     
     4) Set length of 15 has >> 2^15 Subsets 
 
+    5) x-ke max k or er theke kom e koi bar divide kora jabe = (x+k-1)/k 
+
 ## Perfect Square :
     1. How can you find the number of perfect squares in a range?
        >> We take ceil of sqrt(a) because we need to consider numbers after a. For example, let b = 24, a = 8.
