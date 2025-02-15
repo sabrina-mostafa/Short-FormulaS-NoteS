@@ -2,7 +2,7 @@
 
 ## **🔹 Process of Kadane's Algorithm:**  
 1️⃣ **Initialize Variables:**  
-   - `maxSum = INT_MIN` → Stores the maximum sum found.  
+   - `maxSum = Array's 1st Element` → Stores the maximum sum found.  
    - `currSum = 0` → Tracks the current subarray sum.  
 
 2️⃣ **Iterate Through Array:**  
@@ -24,7 +24,7 @@
 ---
 ```cpp
 int maxSubArray(vector<int>& nums) {
-    int maxSum = INT_MIN, currSum = 0;
+    int maxSum = nums[0], currSum = 0;
     
     for (int num : nums) {
         currSum += num;
